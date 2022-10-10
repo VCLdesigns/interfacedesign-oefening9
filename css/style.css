@@ -28,6 +28,31 @@ nav {
   display: inline-block;
   cursor: pointer;
 }
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: antiquewhite;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  left: 37px;
+  top: 5px;
+}
+#menubutton:hover .tooltiptext {
+  animation: tooltip 0.2s linear 1;
+}
+@keyframes tooltip {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
 .bar1,
 .bar2,
 .bar3 {
