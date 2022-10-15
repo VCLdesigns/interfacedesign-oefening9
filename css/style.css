@@ -8,8 +8,14 @@ body {
   background-color: #f8f7f3;
   font-family: "League Spartan", sans-serif;
 }
+header{
+  background-image: url(../img/persian_army.jpg);
+  width: 1022px;
+  height: 222px;
+ 
+}
 #menu_button,
-.menu_hide {
+nav ul {
   position: fixed;
   top: 0;
   right: 0;
@@ -45,9 +51,9 @@ body {
   opacity: 0;
 }
 
-/* .menu_hide {
+.menu_hide {
   display: none;
-} */
+}
 nav ul {
   background-image: url(../img/300_background_mobile.jpg);
   background-repeat: no-repeat;
@@ -58,12 +64,13 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  width: 200px;
+  width: 35%;
+  margin-bottom: 2%;
+  min-height: 50px;
   background: linear-gradient(135deg, #890000 0%, #d60000 50%, #890000 100%);
   border: 2px solid #333;
-  border-radius: 10px;
+  border-radius: 5px 35px;
   box-shadow: 2px 2px 6px #333;
-  margin: 3%;
   transition: transform 0.2s linear;
   opacity: 0;
 }
@@ -98,14 +105,14 @@ nav ul li:nth-of-type(6) {
 
 nav ul li a {
   font-size: 2em;
-  padding: 0 5%;
-  line-height: 2em;
+  padding: 0 15%;
+  line-height: 50px;
   letter-spacing: 0.2em;
   text-decoration: none;
   color: black;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   #menubutton {
     display: inline-block;
   }

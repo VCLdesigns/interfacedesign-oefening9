@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <header> </header>
     <nav>
         <ul class="menu_hide">
             <li><a href="#">Prepare</a></li>
@@ -29,12 +30,12 @@
             <div class="bar3"></div>
         </div>
     </nav>
-
+  
 
     <script>
         var menu_button = document.querySelector("#menu_button");
         var ul = document.querySelector("nav ul");
-        
+
 
 
         menu_button.addEventListener("click", menu_toggle);
@@ -42,7 +43,7 @@
         function menu_toggle(evt) {
             ul.classList.toggle("menu_hide");
             menu_button.classList.toggle("change");
-          
+
         }
 
 
