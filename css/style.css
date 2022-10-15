@@ -113,7 +113,33 @@ nav ul li a {
 }
 
 @media (min-width: 700px) {
-  #menubutton {
-    display: inline-block;
-  }
+ header{
+  margin: 0 auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+ }
+ nav ul {
+  background-image: url(../img/300_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
 }
+}
+main{
+  padding: 10%;
+}
+main h2{
+  text-align: center;
+  font-size: 2em;
+  padding: 2%;
+  margin-bottom: 2%;
+  border-bottom: 1px solid #890000;
+}
+main p{
+  padding: 2%;
+  font-size: 1em;
+}
+
